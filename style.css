@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px 20px;
+    background: black;
+}
+
+.mockup {
+    background: gray;
+    height: 700px;
+}
+
+#player {
+    width: 100%;
+}
+
+#player-wrapper.fixed {
+    margin-bottom: 385px;
+    background: pink;
+}
+
+#player-wrapper.fixed #player {
+    width: 30%;
+    height: auto;
+}
+
+#player-wrapper.fixed div {
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
